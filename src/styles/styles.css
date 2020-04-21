@@ -1,0 +1,159 @@
+body {
+  background-color: rgba(247, 247, 247, 1);
+}
+
+p {
+  margin: 5px;
+}
+
+.titleContainer {
+  border: 1px solid black;
+  padding: 5px;
+  border-radius: 4px;
+  height: 347px;
+  background-image: url("https://www.nme.com/wp-content/uploads/2020/02/GettyImages-1206597242-1392x884.jpg");
+  color: white;
+  background-position: 99% 70%;
+  background-size: 80%;
+  position: relative;
+  font-size: 20px;
+}
+
+.bottom {
+  position: absolute;
+  bottom: 0;
+  left: 4;
+}
+
+.appContainer {
+  margin: auto;
+  min-width: 540px;
+  max-width: 65%;
+}
+
+.eventCard {
+  border: 1px solid black;
+  margin: 0px 5px 5px;
+  background-color: rgb(255, 255, 255);
+  border-radius: 4px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px;
+}
+
+.eventCard:hover {
+  background-color: rgb(235, 235, 235);
+}
+
+.eventDetails {
+  max-width: 600px;
+}
+
+.date {
+  width: 20%;
+  padding: 5px;
+  font-weight: bold;
+  font-size: 16px;
+  display: flex;
+  flex-direction: column;
+  margin: 0px 50px 0px 20px;
+  align-items: center;
+}
+
+.aqua {
+  color: dodgerblue;
+}
+
+.eighteen {
+  font-size: 18px;
+}
+
+.dropDown {
+  width: 300px;
+}
+
+.locationFilter {
+  padding: 0px 10px 10px;
+  border: 1px solid black;
+  border-radius: 4px;
+}
+
+.filterLabel {
+  font-weight: bold;
+}
+
+.filterButton {
+  background-color: dodgerblue;
+  border: none;
+  border-radius: 4px;
+  margin-left: 10px;
+  color: white;
+  font-weight: bold;
+  font-family: monospace;
+}
+
+.root {
+  height: 100%;
+  margin: 0px;
+  padding: 0px;
+}
+
+.redflag {
+  font-weight: bold;
+  color: red;
+  border: 2px solid red;
+  border-radius: 4px;
+  line-height: 120%;
+  text-align: center;
+  max-width: 350px;
+}
+
+.ticketsButton {
+  background-color: royalblue;
+  color: white;
+  font-weight: bold;
+  line-height: 50px;
+  width: 90px;
+  border-radius: 4px;
+  font-size: 14px;
+  margin-left: auto;
+  position: relative;
+  text-align: center;
+  text-decoration: none;
+}
+
+.ticketsButton:hover {
+  background-color: azure;
+  color: black;
+}
+
+.ticketsButton span {
+  display: none;
+  position: absolute;
+
+  bottom: 0;
+  right: 0;
+  font-size: 10px;
+  width: 100px;
+}
+
+.ticketsButton:hover span {
+  display: block;
+}
+
+* {
+  font-family: monospace;
+}
+
+.eltonPic {
+  max-width: 100%;
+}
+
+.eventInfo {
+  font-weight: bold;
+}
+
+.fourteen {
+  font-size: 14px;
+}
