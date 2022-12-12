@@ -21,7 +21,7 @@
   },
   "homepage": "https://github.com/jackiel12/tickets#readme",
   "dependencies": {
-    "express": "^4.17.1",
+    "express": "^4.17.3",
     "node": "^13.13.0",
     "path": "^0.12.7",
     "react": "^16.13.1",
